@@ -1,0 +1,15 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "largeFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "split-file": "^2.3.0"
+  }
+}
