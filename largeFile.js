@@ -11,6 +11,7 @@ const readStream = fs.createReadStream('10mb.txt');
     console.log("chunk",chunk.toString());
   });
 
+
   readStream.on('end', () => {
     console.log('file has been read completely');
   });
